@@ -1,0 +1,19 @@
+{
+  "personal": {
+    "name": "Jeffry Brenes",
+    "title": "Desarrollador Full-Stack, Ingeniero de soluciones, Tutor, Mentor",
+    "subtitle": "Desarrollador, Tutor",
+    "email": "brenes.dev@gmail.com",
+    "phone": "+506 70942307",
+    "location": "Sarapiquí Heredia, Costa Rica",
+    "bio": "Soy una persona curiosa, apasionada por el aprendizaje constante y el crecimiento personal. Disfruto los retos, la competitividad sana y siempre busco superarme día a día. Me encanta compartir tiempo con amigos, jugar fútbol, billar pool y tocar guitarra, porque creo que la vida se trata de equilibrio entre el desarrollo profesional y personal. Como desarrollador de software full stack, valoro hacer las cosas bien desde el principio. Prefiero construir soluciones sólidas y sostenibles, poniendo el foco en las buenas prácticas más que en los atajos. He visto cómo las malas prácticas generan deudas técnicas que frenan el crecimiento, por eso mi compromiso es siempre con la calidad. Además, llevo mi pasión por aprender al rol de tutor, enseñando ciencias exactas como matemáticas y lógica. Siento que enseñar es, al mismo tiempo, una de las mejores formas de aprender y evolucionar. Trabajo con responsabilidad, dedicación y entrega, convencido de que el verdadero límite está en uno mismo. Mi objetivo es crecer, compartir y aportar valor en cada proyecto y en cada interacción.",
+    "aboutExtended": "Actualmente, soy Ingeniero de Frontación Senior en [Tu Empresa], especializado en accesibilidad. Contribuyo a la creación y mantenimiento de componentes de IU que alimentan el frontend de [Tu Empresa], asegurando que nuestra plataforma cumpla con los estándares de accesibilidad web y las mejores prácticas para ofrecer una experiencia de usuario inclusiva.\n\nEn el pasado, he tenido la oportunidad de desarrollar software a través de una variedad de configuraciones, desde agencias de publicidad y grandes corporaciones hasta start-ups y pequeños estudios de productos digitales. Además, también lancé un curso de vídeo completo hace unos años, guiando a los estudiantes a través de la construcción de una aplicación web con la API de Spotify.\n\nEn mi tiempo libre, normalmente estoy escalando, leyendo, pasando el rato con mi esposa y dos gatos, o corriendo por Hyrule buscando Korok seeds."
+  },
+  "social": {
+    "github": "https://github.com/BrenesDev",
+    "linkedin": "https://linkedin.com/in/jeffry-rajid-brenes-ubeda-2a1774315",
+    "email": "mailto:brenes.dev@gmail.com"
+  },
+  "resume": "/resume.pdf"
+}
+    

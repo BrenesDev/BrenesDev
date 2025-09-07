@@ -1,0 +1,24 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Finexa POS",
+      "description": "Plataforma de punto de venta con gestión de inventario, ventas y reportes.",
+      "image": "/images/finexa-products.png",
+      "technologies": ["React", "Redux", "Laravel", "MySQL"],
+      "github": "https://github.com/BrenesDev/FINEXA",
+      "demo": "https://finexa-production.up.railway.app/",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Perfil Profesional",
+      "description": "Sitio web de perfil personal.",
+      "image": "/images/profile-page.png",
+      "technologies": ["React", "Tailwind CSS", "Framer Motion"],
+      "github": "https://github.com/BrenesDev/BrenesDev",
+      "demo": "https://mi-portfolio.vercel.app",
+      "featured": false
+    }
+  ]
+}
