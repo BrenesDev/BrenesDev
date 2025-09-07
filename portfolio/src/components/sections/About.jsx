@@ -57,22 +57,42 @@ const About = () => {
               Jeffry Brenes
             </motion.p>
 
-            <p className="text-textSecondary text-lg leading-relaxed mb-8">
-              Apasionado por el aprendizaje constante y el crecimiento personal.
-              Disfruto los retos, la competitividad sana y el poder compartir
-              conocimientos. <br />
-              Como desarrollador de software, estratega de soluciones con buenas
-              prácticas, sólidas y sostenibles. He sido testigo de cómo las
-              malas prácticas generan deudas técnicas que frenan el crecimiento
-              de cualquier empresa, por eso mi compromiso es siempre con la
-              calidad.
-              <br />
-              Llevo mi pasión por aprender al rol de tutor, enseñando ciencias
-              exactas como matemáticas, lógica y programación. Siento que
-              enseñar es, al mismo tiempo, una de las mejores formas de aprender
-              y evolucionar. Mi objetivo es crecer, compartir y aportar valor en
-              cada proyecto e interacción.
-            </p>
+            <div className="relative mb-8">
+              {/* Circular Profile Image - Floating */}
+              <div className="float-left mr-6 mb-4">
+                <img
+                  src="images/perfil.jpg"
+                  alt="Perfil de Jeffry Brenes"
+                  className="w-32 h-32 rounded-full object-cover shadow-2xl border-2 border-accent/20 hover:border-accent/40 transition-all duration-300 hover:shadow-accent/20"
+                />
+              </div>
+
+              {/* Descripción personal - Flowing text */}
+              <div className="text-textSecondary text-lg leading-relaxed space-y-4">
+                <p>
+                  Apasionado por el aprendizaje constante y el crecimiento
+                  personal. Disfruto los retos, la competitividad sana y el
+                  poder compartir conocimientos.
+                </p>
+                <p>
+                  Como desarrollador de software, estratega de soluciones con
+                  buenas prácticas, sólidas y sostenibles. He sido testigo de
+                  cómo las malas prácticas generan deudas técnicas que frenan el
+                  crecimiento de cualquier empresa, por eso mi compromiso es
+                  siempre con la calidad.
+                </p>
+                <p>
+                  Llevo mi pasión por aprender al rol de tutor, enseñando
+                  ciencias exactas como matemáticas, lógica y programación.
+                  Siento que enseñar es, al mismo tiempo, una de las mejores
+                  formas de aprender y evolucionar. Mi objetivo es crecer,
+                  compartir y aportar valor en cada proyecto e interacción.
+                </p>
+              </div>
+
+              {/* Clear float */}
+              <div className="clear-both"></div>
+            </div>
 
             {/* Action Buttons */}
             <motion.div
