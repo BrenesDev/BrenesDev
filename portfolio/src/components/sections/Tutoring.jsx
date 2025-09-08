@@ -47,7 +47,7 @@ const Tutoring = () => {
       icon: <Star size={32} />,
       title: "Experiencia Comprobada",
       description:
-        "Más de 3 años ayudando a estudiantes a alcanzar sus metas en programación.",
+        "Más de 3 años ayudando a estudiantes a alcanzar sus metas en programación dentro de la Universidad Nacional De Costa Rica.",
     },
   ];
 

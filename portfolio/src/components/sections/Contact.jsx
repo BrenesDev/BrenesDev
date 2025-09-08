@@ -315,8 +315,7 @@ const Contact = () => {
             ¿Prefieres una conversación directa?
           </h3>
           <p className="text-textSecondary mb-6">
-            Agenda una videollamada gratuita de 15 minutos para discutir tu
-            proyecto.
+            Agenda una videollamada para discutir tu proyecto.
           </p>
 
           <motion.a

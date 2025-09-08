@@ -117,7 +117,7 @@ const Projects = () => {
         <motion.div variants={itemVariants} className="mb-16">
           <h2 className="heading-secondary mb-4">
             <span className="text-accent font-mono text-lg mr-4">02.</span>
-            Proyectos Destacados
+            Proyectos
           </h2>
           <div className="w-32 h-0.5 bg-accent mb-8"></div>
           <p className="text-textSecondary text-lg max-w-2xl">

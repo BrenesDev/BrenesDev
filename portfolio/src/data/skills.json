@@ -47,14 +47,14 @@
   },
   "tutoring": {
     "subjects": [
-      "Programación Web (HTML, CSS, JavaScript)",
-      "React y Redux",
-      "Laravel y PHP",
-      "Bases de Datos (MySQL, PostgreSQL)",
-      "Java Fundamentals",
-      "TypeScript",
-      "Desarrollo Full-Stack",
-      "Git y Control de Versiones"
+      "Programación Web",
+      "Bases de Datos",
+      "Lógica de programación",
+      "Estructuras de datos",
+      "Estructuras Discretas",
+      "Matemáticas básicas y avanzadas",
+      "Cálculo",
+      "y mas..."
     ],
     "experience": "3+ años de experiencia enseñando",
     "methodology": "Enfoque práctico con proyectos reales",

@@ -248,7 +248,7 @@ const About = () => {
           <div className="text-center p-6 bg-secondary/30 rounded-lg">
             <div className="text-3xl font-bold text-accent mb-2">50+</div>
             <div className="text-textSecondary text-sm">
-              Estudiantes tutorizados
+              Estudiantes Capacitados
             </div>
           </div>
           <div className="text-center p-6 bg-secondary/30 rounded-lg">

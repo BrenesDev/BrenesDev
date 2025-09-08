@@ -77,18 +77,6 @@ const Navigation = () => {
                 {item.name}
               </motion.a>
             ))}
-            <motion.a
-              href="/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary ml-4"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.6 }}
-              whileHover={{ y: -2 }}
-            >
-              Currículum
-            </motion.a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -143,17 +131,6 @@ const Navigation = () => {
                 {item.name}
               </motion.a>
             ))}
-            <motion.a
-              href="/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary inline-block mt-4"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.6 }}
-            >
-              Currículum
-            </motion.a>
           </div>
         </motion.div>
       </div>
