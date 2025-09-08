@@ -226,8 +226,8 @@ const About = () => {
                 </li>
                 <li className="flex items-start">
                   <span className="text-accent mr-3">▸</span>
-                  Si alguien está por encima de ti, es solo porque ha trabajado
-                  más duro que tú
+                  Si alguien está por encima de ti, es solo porque se ha
+                  esforzado más que tú
                 </li>
               </ul>
             </div>
