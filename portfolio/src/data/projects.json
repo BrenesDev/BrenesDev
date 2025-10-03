@@ -19,6 +19,16 @@
       "github": "https://github.com/BrenesDev/BrenesDev",
       "demo": "https://www.brenes.site/",
       "featured": false
+    },
+    {
+      "id": 3,
+      "title": "Finexa Academia",
+      "description": "Plataforma de educación en línea con cursos y recursos, donde subo mis cursos relacionados a diferentes áreas.",
+      "image": "/images/finexa-academy.png",
+      "technologies": ["Vue JS", "TypeScript", "Supabase"],
+      "github": "https://github.com/BrenesDev/BrenesDev",
+      "demo": "https://finexa-academy-production.up.railway.app/",
+      "featured": false
     }
   ]
 }

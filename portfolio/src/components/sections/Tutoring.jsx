@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { BookOpen, Clock, Users, Star, Check } from "lucide-react";
+import { BookOpen, Users, Star, NotebookPen, Check } from "lucide-react";
 import skillsData from "../../data/skills.json";
 
 const Tutoring = () => {
@@ -48,6 +48,13 @@ const Tutoring = () => {
       title: "Experiencia Comprobada",
       description:
         "Más de 3 años ayudando a estudiantes a alcanzar sus metas en programación dentro de la Universidad Nacional De Costa Rica.",
+    },
+    {
+      icon: <NotebookPen size={32} />,
+      title: "Ir a Finexa Academia",
+      description:
+        "Accede a una variedad de cursos en línea para mejorar tus habilidades en programación.",
+      link: "https://finexa-academy-production.up.railway.app/",
     },
   ];
 
@@ -105,11 +112,16 @@ const Tutoring = () => {
           {features.map((feature, index) => (
             <motion.div
               key={feature.title}
-              className="text-center p-6 bg-primary/50 rounded-lg hover:bg-primary/70 transition-colors duration-300"
+              className="cursor-pointer text-center p-6 bg-primary/50 rounded-lg hover:bg-primary/70 transition-colors duration-300"
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: index * 0.1 }}
               whileHover={{ y: -5 }}
+              onClick={() => {
+                if (feature.link) {
+                  window.open(feature.link, "_blank");
+                }
+              }}
             >
               <div className="text-accent mb-4 flex justify-center">
                 {feature.icon}

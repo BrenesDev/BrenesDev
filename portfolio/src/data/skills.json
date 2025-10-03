@@ -2,16 +2,13 @@
   "skills": {
     "frontend": [
       {
+        "name": "HTML5 Tailwind CSS CSS3"
+      },
+      {
         "name": "JS TS Jquery"
       },
       {
-        "name": "React"
-      },
-      {
-        "name": "Redux"
-      },
-      {
-        "name": "HTML5 Tailwind CSS CSS3"
+        "name": "React, Redux"
       }
     ],
     "backend": [
@@ -24,25 +21,22 @@
     ],
     "database": [
         {
-            "name": "MySQL, T-SQL"
+            "name": "MySQL, T-SQL, Supabase"
         }
     ],
     "tools": [
       {
-        "name": "Git"
+        "name": "Git, Docker, N8N"
       },
       {
-        "name": "Docker"
+        "name": "Vue JS"
       },
-        {
-            "name": "N8N"
-        },
-        {
-            "name": "Api, Rest"
-        },
-        {
-            "name": "+ ..."
-        }
+      {
+          "name": "Hostinger, AWS, Railway, VPS"
+      },
+      {
+          "name": "+ ..."
+      }
     ]
   },
   "tutoring": {
